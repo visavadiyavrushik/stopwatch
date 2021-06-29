@@ -31,10 +31,6 @@ function resetTimer() {
 	min = 0;
 }
 
-setInterval(function () {
-	secCircle.style.transform = `rotate(${6 * sec}deg)`;
-}, 1000);
-
 function timerCycle() {
 	if (stoptime == false) {
 		sec = parseInt(sec);
